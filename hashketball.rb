@@ -159,7 +159,8 @@ def team_colors(sought_team)
   }
 end 
 
-def team_names(hash)
+def team_names
+  
   
 end 
 
