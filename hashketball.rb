@@ -254,6 +254,6 @@ def winning_team
    
    }
   }
-  return winning_team
+  return winning_team_name
 end 
 
