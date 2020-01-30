@@ -267,6 +267,7 @@ def winning_team
      }
    end 
   }
+  
   home_total_points > away_total_points ? home_team : away_team
 end 
 
