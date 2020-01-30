@@ -188,7 +188,7 @@ def player_stats(players_name)
      if attribute == :players
        data.each { |player| 
          if player[:player_name] == players_name
-           result = player
+           result = player.delete_if { |key, value|
          end
        }
      end 
