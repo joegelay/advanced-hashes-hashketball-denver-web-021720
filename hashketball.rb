@@ -220,7 +220,7 @@ end
 
 def most_points_scored
   high_points = 0
-  high_scorer = 
+  high_scorer = ""
   
   game_hash.each { |place, team| 
    team.each { |attribute, data| 
