@@ -245,7 +245,7 @@ def winning_team
   away_total_points = 0 
   
   game_hash.each { |place, team|
-    pry
+    binding.pry
     if place == :home
       
     end 
