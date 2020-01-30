@@ -121,7 +121,7 @@ def game_hash
   }
 end
 
-def num_points_scored
+def num_points_scored(players_name)
   game_hash.each { |location, team|
   p "#{location} #{team}"
   }
