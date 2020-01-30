@@ -175,9 +175,7 @@ def player_numbers(sought_team)
             if stat == :number
               numbers << data
             end
-            
           }
-             
         }
       end
        }
