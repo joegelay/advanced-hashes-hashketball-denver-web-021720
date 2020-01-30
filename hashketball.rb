@@ -246,6 +246,8 @@ def winning_team
   
   game_hash.each { |place, team|
     if place == :home
+      
+    end 
    team.each { |attribute, data| 
    
    }
