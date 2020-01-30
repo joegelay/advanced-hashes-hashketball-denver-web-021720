@@ -123,7 +123,7 @@ end
 
 def num_points_scored
   game_hash.each { |location, team|
-  puts "#{location} #{team}"
+  pp "#{location} #{team}"
   }
 end 
 
