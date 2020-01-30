@@ -161,7 +161,7 @@ end
 
 def team_names
   game_hash.map { |place, team| 
-    return team[:team_name]
+    team[:team_name]
   }
 end 
 
