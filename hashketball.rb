@@ -241,6 +241,9 @@ def winning_team
   home_team = ""
   home_total_points = 0 
   
+  away_team = ""
+  away_total_points = 0 
+  
   game_hash.each { |place, team|
    team.each { |attribute, data| 
    
