@@ -207,7 +207,7 @@ def big_shoe_rebounds
    team.each { |attribute, data| 
      if attribute == :players
        data.each { |player| 
-         if player[:player_name] == players_name
+         if player[:shoe] > biggest_shoe
            result = player.delete_if { |key, value|
            key == :player_name
            }
