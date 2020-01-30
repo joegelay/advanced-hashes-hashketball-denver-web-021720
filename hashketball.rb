@@ -62,7 +62,18 @@ def game_hash
     :away => {
       :team_name => 'Charlotte Hornets',
       :colors => ['Turquoise', 'Purple'],
-      :players => []
+      :players => [{
+        :player_name => 'Jason Terry',
+        :number => 31,
+        :shoe => 15,
+        :points => 19,
+        :rebounds => 2,
+        :assists => 2,
+        :steals => 4,
+        :blocks => 11,
+        :slam_dunks => 1
+      },
+        ]
     }
   }
 end
