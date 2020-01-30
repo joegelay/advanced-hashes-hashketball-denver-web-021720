@@ -270,8 +270,8 @@ def winning_team
 end 
 
 def player_with_longest_name
-  high_points = 0
-  high_scorer = ""
+  longest_name = 0
+  long_name = ""
   
   game_hash.each { |place, team| 
    team.each { |attribute, data| 
@@ -285,6 +285,6 @@ def player_with_longest_name
      end 
    }
  }
-  return high_scorer
+  return long_name
 end 
 
