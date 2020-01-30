@@ -169,10 +169,13 @@ def player_numbers(sought_team)
    game_hash.each { |place, team| 
      if team[:team_name] == sought_team
        team.each { |attribute, data| 
-       binding.pry
        
-        # if attribute == :players
-        #   player.each { |player, stat| 
+       
+        if attribute == :players
+          player.each { |player, stat| 
+            
+            
+          }
              
         }
       end
