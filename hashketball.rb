@@ -228,7 +228,7 @@ def most_points_scored
        data.each { |player| 
          if player[:points] > high_points
            high_points = player[:points]
-           high_scorer = play[:player_name]
+           high_scorer = player[:player_name]
          end
        }
      end 
