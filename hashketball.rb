@@ -234,7 +234,7 @@ def most_points_scored
      end 
    }
  }
-  
+  return high_scorer
 end 
 
 
