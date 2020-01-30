@@ -153,7 +153,7 @@ end
 
 def team_colors(team)
   game_hash.each { |place, team| 
-    if team == team
+    binding.pry
   }
 end 
 
