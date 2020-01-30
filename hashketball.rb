@@ -304,7 +304,7 @@ def most_steals
      end 
    }
  }
-  return high_scorer
+  return high_steal_name
 end 
 
 def long_name_steals_a_ton?
