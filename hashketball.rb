@@ -238,6 +238,7 @@ def most_points_scored
 end 
 
 def winning_team 
-  
+  winning_team = ""
+  high_points = 0 
 end 
 
