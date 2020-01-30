@@ -177,7 +177,6 @@ def player_numbers(sought_team)
         }
       end
        }
-   }
 end 
 
 
