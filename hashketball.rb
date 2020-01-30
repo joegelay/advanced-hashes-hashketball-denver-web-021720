@@ -238,8 +238,8 @@ def most_points_scored
 end 
 
 def winning_team 
-  winning_team = ""
-  high_points = 0 
+  home_team = ""
+  home_total_points = 0 
   
   game_hash.each { |place, team|
    team.each { |attribute, data| 
