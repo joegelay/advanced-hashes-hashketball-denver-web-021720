@@ -221,6 +221,18 @@ end
 def most_points_scored
   high_points = 0 
   
+  game_hash.each { |place, team| 
+   team.each { |attribute, data| 
+     if attribute == :players
+       data.each { |player| 
+         if player[:points] > biggest_shoe
+           biggest_shoe = player[:shoe]
+           rebounds = player[:rebounds]
+         end
+       }
+     end 
+   }
+ }
   
 end 
 
