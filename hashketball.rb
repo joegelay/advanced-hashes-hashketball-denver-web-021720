@@ -290,7 +290,7 @@ end
 
 def most_steals
   high_steals = 0
-  high_steals = ""
+  high_steal_name = ""
   
   game_hash.each { |place, team| 
    team.each { |attribute, data| 
