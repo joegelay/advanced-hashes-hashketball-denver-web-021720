@@ -166,6 +166,7 @@ def team_names
 end 
 
 def player_numbers(sought_team)
+  numbers = []
    game_hash.each { |place, team| 
      if team[:team_name] == sought_team
        team.each { |attribute, data| 
