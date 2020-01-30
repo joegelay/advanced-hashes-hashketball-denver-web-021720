@@ -296,7 +296,7 @@ def most_steals
    team.each { |attribute, data| 
      if attribute == :players
        data.each { |player| 
-         if player[:points] > high_points
+         if player[:steal] > high_points
            high_points = player[:points]
            high_scorer = player[:player_name]
          end
