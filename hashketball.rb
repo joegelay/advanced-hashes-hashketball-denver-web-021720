@@ -182,6 +182,7 @@ def player_numbers(sought_team)
 end 
 
 def player_stats(players_name)
+  result = {}
   game_hash.each { |place, team| 
    team.each { |attribute, data| 
      if attribute == :players
