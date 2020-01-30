@@ -216,7 +216,6 @@ def big_shoe_rebounds
    }
  }
  return rebounds
-  
 end 
 
 
