@@ -167,6 +167,7 @@ end
 
 def player_numbers(sought_team)
    game_hash.each { |place, team| 
+   
    }
 end 
 
