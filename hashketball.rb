@@ -203,6 +203,20 @@ def big_shoe_rebounds
   biggest_shoe = 0 
   rebounds = 0 
   
+  game_hash.each { |place, team| 
+   team.each { |attribute, data| 
+     if attribute == :players
+       data.each { |player| 
+         if player[:player_name] == players_name
+           result = player.delete_if { |key, value|
+           key == :player_name
+           }
+         end
+       }
+     end 
+   }
+ }
+  
 end 
 
 
