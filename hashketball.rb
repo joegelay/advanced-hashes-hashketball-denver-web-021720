@@ -242,7 +242,7 @@ def winning_team
   high_points = 0 
   
   game_hash.each { |place, team|
-  
+   team.each { |attribute, data| 
   }
 end 
 
