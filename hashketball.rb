@@ -187,7 +187,7 @@ def player_stats(players_name)
      if attribute == :players
        data.each { |player| 
          if player[:player_name] == players_name
-           
+           puts "test"
          end
        }
      end 
