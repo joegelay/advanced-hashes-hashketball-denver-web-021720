@@ -189,6 +189,8 @@ def player_stats(players_name)
        data.each { |player| 
          if player[:player_name] == players_name
            result = player.delete_if { |key, value|
+           key == :player_name
+           }
          end
        }
      end 
