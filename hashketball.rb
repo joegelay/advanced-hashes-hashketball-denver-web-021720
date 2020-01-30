@@ -244,8 +244,6 @@ def winning_team
   away_team = ""
   away_total_points = 0 
   
-  winning_team_name = ""
-  
   game_hash.each { |place, team|
     if place == :home
       home_team = team[:team_name]
