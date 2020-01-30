@@ -160,7 +160,9 @@ def team_colors(sought_team)
 end 
 
 def team_names
-  
+  game_hash.map { |place, team| 
+    
+  }
   
 end 
 
