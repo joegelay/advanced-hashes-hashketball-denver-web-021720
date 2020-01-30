@@ -268,6 +268,11 @@ def winning_team
    end 
   }
   
+  if home_total_points > away_total_points
+    return home_team
+  else 
+    return away_team
+  end 
   return away_total_points
 end 
 
