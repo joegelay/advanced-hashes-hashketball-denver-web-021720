@@ -258,6 +258,6 @@ def winning_team
      }
     end 
   }
-  return home_total_points
+  return winning_team_name
 end 
 
