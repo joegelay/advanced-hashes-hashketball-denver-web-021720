@@ -175,9 +175,8 @@ def player_numbers(sought_team)
         #   player.each { |player, stat| 
              
            }
-         end 
+      end 
        }
-     end 
    }
 end 
 
