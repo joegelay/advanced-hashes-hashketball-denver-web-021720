@@ -249,10 +249,11 @@ def winning_team
   game_hash.each { |place, team|
     if place == :home
       home_team = team[:team_name]
-    end 
-   team.each { |attribute, data| 
+       team.each { |attribute, data| 
    
    }
+    end 
+  
   }
   return winning_team_name
 end 
