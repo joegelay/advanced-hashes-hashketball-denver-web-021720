@@ -194,6 +194,7 @@ def player_stats(players_name)
      end 
    }
  }
+ return result
 end 
 
 
