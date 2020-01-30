@@ -129,8 +129,6 @@ def num_points_scored(players_name)
    team.each { |attribute, data| 
      binding.pry
    }
-   
-   
  }
  
 end 
