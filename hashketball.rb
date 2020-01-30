@@ -168,7 +168,9 @@ end
 def player_numbers(sought_team)
    game_hash.each { |place, team| 
      if team[:team_name] == sought_team
-       
+       team.each { |attribute, data| 
+         
+       }
      end 
    }
 end 
