@@ -250,7 +250,11 @@ def winning_team
     if place == :home
       home_team = team[:team_name]
        team.each { |attribute, data| 
-   
+   if attribute == :players
+       data.each { |player| 
+         
+       } 
+   end 
    }
     end 
   }
