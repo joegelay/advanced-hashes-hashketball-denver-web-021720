@@ -177,7 +177,7 @@ def player_numbers(sought_team)
         #       numbers << data
         #     end
         #   }
-        # end
+        end
         }
       end
        }
