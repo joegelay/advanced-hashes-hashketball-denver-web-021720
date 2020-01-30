@@ -289,7 +289,7 @@ def player_with_longest_name
 end 
 
 def most_steals
-  high_points = 0
+  high_steals = 0
   high_scorer = ""
   
   game_hash.each { |place, team| 
