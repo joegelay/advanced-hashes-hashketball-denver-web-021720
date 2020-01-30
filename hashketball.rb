@@ -269,4 +269,22 @@ def winning_team
   home_total_points > away_total_points ? home_team : away_team
 end 
 
+def player_with_longest_name
+  high_points = 0
+  high_scorer = ""
+  
+  game_hash.each { |place, team| 
+   team.each { |attribute, data| 
+     if attribute == :players
+       data.each { |player| 
+         if player[:points] > high_points
+           high_points = player[:points]
+           high_scorer = player[:player_name]
+         end
+       }
+     end 
+   }
+ }
+  return high_scorer
+end 
 
