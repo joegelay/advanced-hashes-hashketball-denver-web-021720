@@ -140,6 +140,7 @@ end
 
 def shoe_size(players_name)
   
+  game.hash 
 end 
 
 
