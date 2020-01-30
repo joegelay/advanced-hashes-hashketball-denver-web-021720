@@ -245,6 +245,7 @@ def winning_team
   away_total_points = 0 
   
   game_hash.each { |place, team|
+    if place 
    team.each { |attribute, data| 
    
    }
