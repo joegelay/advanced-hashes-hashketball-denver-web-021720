@@ -122,7 +122,7 @@ def game_hash
 end
 
 def num_points_scored
-  puts game_hash
+  pp game_hash
 end 
 
  num_points_scored
