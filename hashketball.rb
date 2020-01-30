@@ -173,9 +173,7 @@ def player_numbers(sought_team)
       
        if attribute == :players
         data.each { |player| 
-        #     if stat == :number
-        #       numbers << data
-        #     end
+        numbers << player[]
         }
         end
         }
