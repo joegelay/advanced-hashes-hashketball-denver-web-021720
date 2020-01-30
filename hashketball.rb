@@ -273,6 +273,5 @@ def winning_team
   else 
     return away_team
   end 
-  return away_total_points
 end 
 
