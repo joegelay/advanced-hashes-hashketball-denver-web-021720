@@ -252,5 +252,6 @@ def winning_team
    
    }
   }
+  return home_team
 end 
 
